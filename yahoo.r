@@ -1,9 +1,8 @@
-###
-
-theme_set(theme_minimal())
-
+### Two ways to redraw a horrible chart
 library(ggplot2)
 library(scales)
+
+theme_set(theme_minimal())
 
 data <- read.csv("data/data.csv", header = TRUE)
 
