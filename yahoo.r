@@ -17,7 +17,7 @@ p + geom_smooth(method = "lm") +
     ggtitle("Yahoo Employees vs Revenues, 2004-2014") +
     scale_y_continuous(labels = dollar) +
     scale_x_continuous(labels = comma)
-credit("\nKieran Healy, http://kieranhealy.org ")
+credit("\nNote: Two observations for 2012 (Mayer appointed in July). Kieran Healy, http://kieranhealy.org")
 
 
 
@@ -31,4 +31,4 @@ p + geom_path(color = "gray80") +
     ggtitle("Yahoo Employees vs Revenues, 2004-2014") +
     scale_y_continuous(labels = dollar) +
     scale_x_continuous(labels = comma)
-credit("\nKieran Healy, http://kieranhealy.org ")
+credit("\nNote: Two observations for 2012 (Mayer appointed in July). Kieran Healy, http://kieranhealy.org ")
